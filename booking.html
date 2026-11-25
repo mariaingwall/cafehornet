@@ -5,9 +5,78 @@
     <title>Café Hörnet</title>
   </head>
   <body>
+    <header>
+      <a href="index.html">Kafé Hörnet</a>
+    </header>
     <nav>
       <a href="index.html"> Start</a> <a href="menu.html"> · Meny ·</a>
       <a href="booking.html"> Boka bord</a>
     </nav>
+    <main>
+    <h1>Boka bord</h1>
+    <p>
+      Fyll i formuläret så bekräftar vi via e-post inom en timme under öppettid.
+      Sällskap över 8 personer: ring oss.
+    </p>
+    <section>
+      <form>
+        <p>
+          <label for="name">Namn</label>
+          <input type="text" id="name" required="" />
+        </p>
+
+        <p>
+          <label for="emails">E-post</label>
+          <input type="email" id="emails" required=""/>
+        </p>
+        <p>
+          <label for="dates">Datum</label>
+          <input type="date" id="dates" required="" />
+        </p>
+        <p>
+          <label for="times">Tid</label>
+          <select id="times" required="">
+          <option value="09.00">09.00</option>
+          <option value="10.00">10.00</option>
+          <option value="11.00">11.00</option>
+          <option value="12.00">12.00</option>
+          <option value="13.00">13.00</option>
+          <option value="14.00">14.00</option>
+          <option value="15.00">15.00</option>
+          <option value="16.00">16.00</option>
+          </select>
+        </p>
+        <p>  
+          <label for="peepz">Antal personer</label>
+          <select id="peepz" required="">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+           </select>
+           <p/>
+          <label for="skriv">Vill du meddela oss något?</label>
+          <input type="text" id="skriv"/>
+        </p>
+        <button>Skicka bokning</button>
+        </main>
+    </section>
+    <footer>
+      <h3>Hitta hit:</h3>
+      <p>
+        Hörngatan 12, 118 65 Stockholm. Två minuter från Mariatorgets tunnelbana
+      </p>
+
+      <h3>Öppettider:</h3>
+      <p>Måndag–fredag 07.30–18.00. Lördag–söndag 09.00–17.00.</p>
+      <h3>Kontakt:</h3>
+      <p>hej@kafehornet.example · 08-123 456 78</p>
+
+      <p>© Kafé Hörnet 2026</p>
+    </footer>
   </body>
 </html>
